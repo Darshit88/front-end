@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.size{
+    width: 260px;
+    height: 260px;
+}
+.nav{
+    background-color: #eaeaea;
+}
+.img{
+    width: 200px;
+    height: 30px;
+}
