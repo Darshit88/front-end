@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="chart.css">
+    <link rel="stylesheet" href="apexchart.css">
+    <link rel="stylesheet" href="./calender.css">
+    <link rel="stylesheet" href="./mapbox.css">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="headerNav">
+            <div class="headerMenu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="searchBar">
+                <input type="text" class="searchText" placeholder="SEARCH HEAR...">
+                <i class="fa-solid fa-magnifying-glass searchGlass"></i>
+            </div>
+            <div class="userDetail">
+                <i class="fa-solid fa-user user"></i>
+                <i class="fa-solid fa-gear setting"></i>
+            </div>
+        </nav>
+    </header>
+
+    <aside>
+        <div class="sideBar">
+            <div class="sideBar-logo">
+                <img src="./img-2/logo.png" alt="" class="logoImg">
+            </div>
+            <div class="sidebar-main">
+                <div class="function">
+                    <i class="fa-solid fa-gauge icon"></i>
+                    <h3 class="funTitle">Dashboard</h3>
+                </div>
+                <div class="function">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h3 class="funTitle">Charts</h3>
+                </div>
+                <div class="function">
+                    <i class="fa-solid fa-table"></i>
+                    <h3 class="funTitle">Tables</h3>
+                </div>
+                <div class="function">
+                    <i class="fa-brands fa-wpforms"></i>
+                    <h3 class="funTitle">Forms</h3>
+                </div>
+                <div class="function">
+                    <i class="fa-solid fa-wrench"></i>
+                    <h3 class="funTitle">UI Elements</h3>
+                </div>
+                <div class="function">
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h3 class="funTitle">Network</h3>
+                </div>
+                <div class="function">
+                    <i class="fa-solid fa-user "></i>
+                    <h3 class="funTitle">Account</h3>
+                </div>
+              
+            </div>
+        </div>
+    </aside>
+
+    <section class="contentArea">
+        <div class="plugin col-12">
+            <!-- chart start-->
+            <div class="pluginBox col-5">
+                <div class="chart-container">
+                    <canvas id="chart"></canvas>
+                </div>
+            </div>
+            <!-- chart end -->
+
+            <!-- Apexchart start -->
+            <div class="pluginBox col-5">
+                <div id="chart0">
+                    <div id="timeline-chart"></div>
+                  </div>
+            </div>
+            <!-- Apexchart end -->
+        </div>
+        <div class="plugin col-12">
+            <!-- calender start -->
+            <div class="pluginBox col-5">
+                <div id="calendar" class="calendar">
+                    <div class="calendar-title">
+                        <div class="calendar-title-text"></div>
+                        <div class="calendar-button-group">
+                            <button id="prevMonth">&lt;</button>
+                            <button id="today">Today</button>
+                            <button id="nextMonth">&gt;</button>
+                        </div>
+                    </div>
+                    <div class="calendar-day-name"></div>
+                    <div class="calendar-dates"></div>
+                </div>
+            </div>
+            <!-- calender end -->
+
+            <!-- mapbox start -->
+            <div class="pluginBox col-5">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235014.29918790405!2d72.41493012913726!3d23.020158084541748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1702981310259!5m2!1sen!2sin" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+            <!-- mapbox end -->
+        </div>
+    </section>
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <script src="./class.js"></script>
+    <script src="./js/chart.js"></script>
+    <script src="./js/apexchart.js"></script>
+    <script src="./js/calender.js"></script>
+    <script src="./js/mapbox.js"></script>
+    <script src="./js/newtoggle.js"></script>
+</body>
+
+</html>

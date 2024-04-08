@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+  
+  background: url(https://i.pinimg.com/originals/9c/94/3c/9c943c62464781788705ab51b841bdbc.jpg);
+    width: 100%;
+    height: 100vh;
+  
+   
+  }
+  
+  .form-title {
+    padding: 10px;
+    font-size: 34px;
+  }
+  
+  .content {
+    background: url(https://w.forfun.com/fetch/d8/d82af29ad960ebb0f79c833814872c33.jpeg);
+    width: 30%;
+    height: 460px;
+    /* margin: auto;
+    text-align: center; */
+    border: 2px solid black;
+    
+    margin: 0px 550px;
+   text-align: center;
+    position: absolute;
+    top: 100px;
+  }
+  .content:hover{
+    box-shadow: 10px 10px 10px 10px #b9b8b87e;
+    transition: 0.5s;
+  }
+  .content h2{
+    color: #666666;
+    border-bottom: 2px solid #000;
+    font-family: verdana;
+  }
+  .content form {
+    margin: 20px;
+  }
+  
+  .form-name {
+    width: 300px;
+    height: 34px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    background-color: #000;
+    color: #7e7e7e;
+    border: none;
+    text-indent: 20px;
+    font-family: cursive;
+  }
+  
+  .content button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-family: verdana;
+    border: none;
+    background-color: #000;
+    color: #7e7e7e;
+  }
+  .content button:hover{
+    transition: 1.5s;
+   background-color: rgb(212, 211, 211);
+   color: #000;
+   font-style: oblique;
+  }

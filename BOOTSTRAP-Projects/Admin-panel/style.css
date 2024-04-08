@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.login {
+  background-image: url(./img/tab.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-color: rgb(5, 5, 5); */
+  position: relative;
+}
+
+.login-content {
+  /* border: 2px solid white; */
+  width: 500px;
+  height: 370px;
+  position: absolute;
+  left: 570px;
+  top: 270px;
+}
+
+.login-content h2 {
+  color: rgb(213, 218, 218);
+  font-size: 22x;
+  padding: 20px;
+  border-bottom: 2px solid #7e7e7e;
+  text-align: center;
+  font-weight: 100;
+  font-family: cursive;
+}
+
+.inputBx {
+  width: 300px;
+  height: 50px;
+  margin: 20px 50px;
+  text-indent: 20px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #7e7e7e;
+}
+.inputBx::placeholder{
+  font-size: 18px;
+  font-family: verdana;
+}
+
+.input-btn{
+  margin: 20px 50px;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: cursive;
+  color: #7e7e7e;
+  background-color: transparent;
+  border: 0.5px solid #7e7e7e;
+}
+.input-btn:hover{
+  background-color: #7e7e7e;
+  color: white;
+  transition: 0.7s;
+  width: 160px;
+
+}
