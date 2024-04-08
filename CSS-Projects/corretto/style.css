@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hdr {
+    background-color: #261d1d;
+    width: auto;
+    height: 120px;
+    position: relative;
+}
+
+.home img {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+}
+
+.home2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: absolute;
+    float: right;
+    list-style: none;
+    left: 740px;
+    gap: 40px;
+    bottom: 50px;
+}
+
+.home2 li a {
+    font-size: 20px;
+    font-family: monospace;
+    color: antiquewhite;
+    gap: 50px;
+    text-decoration: none;
+}
+
+.home2 li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: antiquewhite;
+    display: block;
+    transition: 0.5s;
+    margin: auto;
+}
+
+.home2 li:hover::after {
+    width: 100%;
+}
+
+.hd {
+    font-size: 20px;
+    position: absolute;
+    left: 1350px;
+    color: antiquewhite;
+    bottom: 50px;
+}
+
+.sec1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.factory img {
+    width: 1519px;
+    height: 700px;
+}
+
+.factory3 {
+    position: absolute;
+    float: right;
+    top: 60px;
+    left: 900px;
+    width: 200px;
+}
+
+.factory2 h3 {
+    position: absolute;
+    float: right;
+    top: 270px;
+    left: 580px;
+    color: antiquewhite;
+    font-family: lucida sans;
+    font-size: 100px;
+}
+
+.factory4 {
+    position: absolute;
+    top: 400px;
+    left: 900px;
+}
+
+.factory2 p {
+    color: antiquewhite;
+    position: absolute;
+    top: 500px;
+    left: 600px;
+    line-height: 1.4;
+    font-size: 23px;
+    text-align: center;
+}
+
+.factory5 {
+    position: absolute;
+    top: 600px;
+    left: 900px;
+    font-size: 16px;
+    padding: 20px;
+    width: 180px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: antiquewhite;
+    transition: 1s;
+}
+
+.factory5:hover {
+    background-color: antiquewhite;
+    color: #262626;
+}
+
+.sec2 {
+    width: auto;
+    height: 800px;
+    margin: 10px;
+    position: relative;
+}
+
+.offer h5 {
+    font-size: 40px;
+    font-family: cursive;
+    padding-top: 70px;
+    text-align: center;
+    color: #262626;
+}
+
+.offer img {
+    position: absolute;
+    top: 140px;
+    left: 640px;
+}
+
+.offer p {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: #656565;
+}
+
+.offer1 {
+    width: 300px;
+    margin: 20px;
+    padding-top: 70px;
+    text-align: center;
+    height: 300px;
+}
+
+.offer1 img {
+    width: 160px;
+    height: 160px;
+}
+
+.offer1 h5 {
+    font-size: 28px;
+    padding-top: 10px;
+    color: #262626;
+    font-family: monospace;
+}
+
+.offer1 p {
+    color: 656565;
+    font-family: sans-serif;
+    line-height: 1.3;
+    padding-top: 14px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding-left: 50px;
+}
+
+.sec3 {
+    width: auto;
+    height: 900px;
+    margin: 10px;
+    position: relative;
+    background-image: url(./img/background-img.jpg);
+}
+
+.box1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px 20px 0px 50px;
+}
+
+.box1 h6::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: antiquewhite;
+    display: block;
+    transition: 0.5s;
+    margin: auto;
+}
+
+.box1 h6:hover::after {
+    width: 100%;
+}
+
+.prep img {
+    width: 420px;
+    height: 340px;
+}
+
+#dolor {
+    margin-left: 20px;
+}
+
+.prep h4 {
+    padding: 20px 0px 20px 0px;
+    font-size: 24px;
+    font-family: monospace;
+    color: #262626;
+}
+
+.prep p {
+    font-size: 18px;
+    line-height: 1.3;
+    color: #656565;
+    font-family: sans-serif;
+
+}
+
+.prep h6 {
+    padding: 20px 0px 20px 4px;
+    font-family: monospace;
+    font-size: 18px;
+    color: #262626;
+}
+
+.sec4 {
+    width: auto;
+    height: 1250px;
+    margin: 10px;
+    position: relative;
+}
+
+.gallery img {
+    width: 367px;
+    height: 355px;
+    margin: 2px;
+    padding-top: 20px;
+}
+
+.gallery1 img {
+    width: 230px;
+    height: 104px;
+    padding: 60px 0px 0px 10px;
+}
+
+.sec5 {
+    width: auto;
+    height: 800px;
+    margin: 10px;
+    position: relative;
+    background-image: url(./img/background.jpg);
+}
+
+.online {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0px 0px 150px;
+}
+
+.shop img {
+    width: 290px;
+    height: 300px;
+}
+
+.shop h5 {
+    text-align: center;
+    font-size: 22px;
+    font-family: monospace;
+    padding: 20px 0px 6px 0px;
+    color: #262626;
+}
+
+.shop p {
+    text-align: center;
+    font-family: cursive;
+    font-size: 18px;
+    color: #656565;
+}
+
+.correto {
+    background-image: url(./img/footer-top-img-1.jpg);
+    margin: auto;
+    width: 1518px;
+    bottom: 10px;
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+}
+
+.store img {
+    width: 220px;
+    height: 110px;
+    position: absolute;
+    top: 70px;
+    left: 640px;
+}
+
+.store p {
+    font-size: 20px;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 210px;
+    font-style: italic;
+    font-family: sans-serif;
+    line-height: 1.3;
+}
+
+.store1 h6 {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 28px;
+    font-family: cursive;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+.store1 p {
+    color: antiquewhite;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+.store1 h5 {
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 200;
+}
+
+.store1 input {
+    width: 200px;
+    height: 52px;
+    position: absolute;
+    left: 590px;
+    padding-right: 60px;
+    top: 499.9px;
+    font-size: 14px;
+    padding-left: 10px;
+    background-color: transparent;
+    border: 2px solid bisque;
+}
+
+.store1 i {
+    width: 50px;
+    height: 26px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 499.9px;
+    left: 863.6px;
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 28px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.reserved {
+    background-color: #262626;
+    width: auto;
+    height: 150px;
+    bottom: 14px;
+    position: relative;
+}
+
+.abu p {
+    color: antiquewhite;
+    font-size: 20px;
+    top: 70px;
+    left: 40px;
+    position: absolute;
+}
+
+.foot {
+    bottom: 65px;
+    left: 700px;
+}
+
+.icon1 {
+    color: antiquewhite;
+    position: absolute;
+    font-size: 24px;
+    top: 66px;
+    left: 1300px;
+}
+
+
+
+/* slider start  */
+
+/* slider end */ 
