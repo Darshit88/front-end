@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MagiCom</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+  <!-- nav -->
+  <nav class="navbar navbar-expand-lg bg-black">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-5 ps-5" href="#"><img src="./img/logo.png" alt=""
+          style=" height: 80px; width: 150px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse gap-5 justify-content-center fs-5">
+        <ul class="navbar-nav ms-5 me-5">
+          <li class="nav-item">
+            <a class="nav-link active" style="color: #c59b68;" aria-current="page" href="">Home</a>
+          </li>
+          <li class="nav-item ms-5 dropdown">
+            <a class="nav-link active dropdown-toggle text-secondary" aria-current="page" data-bs-toggle="dropdown"
+              role="button" href="#">About</a>
+            <ul class="dropdown-menu bg-black">
+              <li><a class="dropdown-item text-secondary" href="#">About Club</a></li>
+              <li><a class="dropdown-item text-secondary" href="#">About Me</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ms-5 dropdown">
+            <a class="nav-link active dropdown-toggle text-secondary" aria-current="page" data-bs-toggle="dropdown"
+              role="button" href="#">Page</a>
+            <ul class="dropdown-menu bg-black">
+              <li><a class="dropdown-item text-secondary" href="#">Gallery</a></li>
+              <li><a class="dropdown-item text-secondary" href="#">Blog</a></li>
+              <li><a class="dropdown-item text-secondary" href="#">Press</a></li>
+              <li><a class="dropdown-item text-secondary" href="#">Preformance</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ms-5">
+            <a class="nav-link active text-secondary" aria-current="page" href="#">Schedule</a>
+          </li>
+          <li class="nav-item ms-5">
+            <a class="nav-link active text-secondary" aria-current="page" href="#">Contact</a>
+          </li>
+        </ul>
+        <div class="ms-5 d-flex ps-5 gap-4">
+          <i class="fa-brands fa-twitter text-secondary fs-3"></i>
+          <i class="fa-brands fa-facebook-f text-secondary fs-3"></i>
+          <i class="fa-brands fa-youtube text-secondary fs-3"></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- nav -->
+
+  <!-- Home start -->
+  <section class="sec-one">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/image3.jpg" class="d-block w-100 " alt="...">
+          <div class="carousel-caption d-none d-md-block" style="position:absolute; top: 130px;">
+            <h3 class="font-monospace  fw-semibold fst-italic fs-1">Executive Member</h3>
+            <h5 class="" style="font-size: 90px; font-family: cursive;">Magician & Stand-up <br> Comedy Club</h5>
+            <p class="fs-2 mt-5" style="color: #c59b68;">----<i class="fa-solid fa-microphone ms-3  me-3"></i>----</p>
+            <p class="mt-4 fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+              ullamcorper mattis, pulvinar <br>dapibus leo.
+            </p>
+            <button class="button mt-5 fs-5 me-3">Check Shedule</button>
+            <button class="button bg-transparent fs-5">Play Video</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/image2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block" style="position:absolute; top: 130px;">
+            <h3 class="font-monospace fw-semibold fst-italic fs-1">Executive Member</h3>
+            <h5 class="" style="font-size: 90px; font-family: cursive;">Magician & Stand-up <br> Comedy Club</h5>
+            <p class="fs-2 mt-5" style="color: #c59b68;">----<i class="fa-solid fa-microphone ms-3  me-3"></i>----</p>
+            <p class="mt-4 fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+              ullamcorper mattis, pulvinar <br>dapibus leo.
+            </p>
+            <button class="button mt-5 fs-5 me-3">Check Shedule</button>
+            <button class="button bg-transparent fs-5">Play Video</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/image1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block" style="position:absolute; top: 130px;">
+            <h3 class="font-monospace fw-semibold fst-italic fs-1">Executive Member</h3>
+            <h5 class="" style="font-size: 90px; font-family: cursive;">Magician & Stand-up <br> Comedy Club</h5>
+            <p class="fs-2 mt-5" style="color: #c59b68;">----<i class="fa-solid fa-microphone ms-3  me-3"></i>----</p>
+            <p class="mt-4 fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+              ullamcorper mattis, pulvinar <br>dapibus leo.
+            </p>
+            <button class="button mt-5 fs-5 me-3">Check Shedule</button>
+            <button class="button bg-transparent fs-5">Play Video</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- Home end -->
+
+  <!-- Welcome -->
+  <section class="bg-black">
+    <div class="container-fluid">
+      <div class="text-center p-5">
+        <h3 class="font-monospace fw-bold fs-1">WELCOME TO THE CLUB</h3>
+        <p class="fs-2 mt-3" style="color: #c59b68;">----<i class="fa-solid fa-microphone ms-3  me-3"></i>----</p>
+        <h4 class="fs-4 text-secondary fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</h4>
+        <img src="./img/image4.jpg" alt="" class="mt-5">
+      </div>
+      <div class="d-flex justify-content-center justify-content-evenly pb-5">
+        <div class="" style="width: 18rem;">
+          <div class="card-body text-center">
+            <i class="fa-solid fa-beer-mug-empty icn"
+              style="background: #c59b68; padding: 30px; border-radius: 50%;"></i>
+            <h5 class="card-title mt-3 text-white">Special title treatment</h5>
+            <p class="card-text mt-3 text-secondary p b-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          </div>
+        </div>
+        <div class="" style="width: 18rem;">
+          <div class="card-body text-center">
+            <i class="fa-solid fa-microphone icn " style="background: #c59b68; padding: 30px; border-radius: 50%;"></i>
+            <h5 class="card-title mt-3 text-white">Special title treatment</h5>
+            <p class="card-text mt-3 text-secondary p b-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          </div>
+        </div>
+        <div class="" style="width: 18rem;">
+          <div class="card-body text-center">
+            <i class="fa-solid fa-music icn" style="background: #c59b68; padding: 30px; border-radius: 50%;"></i>
+            <h5 class="card-title mt-3 text-white">Special title treatment</h5>
+            <p class="card-text mt-3 text-secondary p b-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Welcome -->
+
+  <!-- sec-three start -->
+  <section class="sec-three">
+    <div class="container">
+      <div class="text-center">
+        <h3 class="font-monospace fw-bold fs-1 pt-5">CURRENT SHOW</h3>
+        <p class="fs-2 mt-1" style="color: #c59b68;">----<i class="fa-solid fa-microphone ms-3  me-3"></i>----</p>
+        <h4 class="fs-5 text-white-50 fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+          luctus nec ullamcorper mattis, pulvinar dapibus leo.</h4>
+      </div>
+      <div class="d-flex">
+        <img src="./img/image5.jpg" class="w-25 h-25 m-5" alt="">
+        <div class="m-4 pt-4">
+          <h3 class="fst-italic mt-5 pt-2">December 21</h3>
+          <h5 class="text-white fs-1">Love is not my passion, to be love yes!</h5>
+          <p class="fs-5 text-white-50 fw-lighter pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor <br> incididunt ut breadcrumb labore et dolore magna aliqua. Ut enim ad minim veniam, <br>
+            quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+          <h4 class="fs-3 text-white">Arnold Mcnaine</h4>
+          <div class="d-flex gap-2 mt-3">
+            <i class="fa-regular fa-clock fs-5 text-secondary pt-1"></i>
+            <p class="fs-5 text-secondary">22:00 - 22:45</p>
+          </div>
+        </div>
+      </div>
+      <button class="button fs-5 justify-content-center ms-5">View All Shedule <i
+          class="fa-solid fa-arrow-right ms-1"></i></button>
+    </div>
+    </div>
+
+  </section>
+  <!-- sec-three end -->
+
+  <!-- sec-four start-->
+  <section class="bg-dark">
+    <div class="container">
+      <div class="text-center">
+        <h3 class="font-monospace fw-bold fs-1 pt-5">UPCOMING SHOWS</h3>
+        <p class="fs-2 mt-1" style="color: #c59b68;">----<i class="fa-solid fa-microphone ms-3  me-3"></i>----</p>
+        <h4 class="fs-5 text-white-50 fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+          luctus nec ullamcorper mattis, pulvinar dapibus leo.</h4>
+      </div>
+      <div>
+        <div>
+          <div class="d-flex ms-5 mt-5">
+            <img src="./img/image1.jpg" alt="" class="w-25 h-25 m-3">
+            <div class="mt-4 ms-3">
+              <h4 class="text-white fs-3">Jason Monov</h4>
+              <h3 class="fs-5 fst-italic pb-1">
+                <i class="fa-solid fa-calendar-days"></i>
+                20 May 2023 | <i class="fa-regular fa-clock "></i> 21:00 - 21:45
+              </h3>
+              <h5 class="text-white-50"> ---------------------------------------------------------------</h5>
+              <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit <br> tellus,
+                luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+            <div class="mt-4 ms-4 pt-2">
+              <button class="button fs-4 mt-5">Buy Ticket <i class="fa-solid fa-arrow-right ms-1"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex ms-5 mt-5">
+          <img src="./img/image2.jpg" alt="" class="w-25 h-25 m-3">
+          <div class="mt-4 ms-3">
+            <h4 class="text-white fs-3">Arnold Mcnaine</h4>
+            <h3 class="fs-5 fst-italic pb-1">
+              <i class="fa-solid fa-calendar-days"></i>
+              27 May 2023 | <i class="fa-regular fa-clock "></i> 22:00 - 22:45
+            </h3>
+            <h5 class="text-white-50"> ---------------------------------------------------------------</h5>
+            <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit <br> tellus,
+              luctus
+              nec ullamcorper mattis, pulvinar dapibus leo.</p>
+          </div>
+          <div class="mt-4 ms-4 pt-2">
+            <button class="button fs-4 mt-5">Buy Ticket <i class="fa-solid fa-arrow-right ms-1"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex ms-5 mt-5">
+        <img src="./img/image3.jpg" alt="" class="w-25 h-25 m-3">
+        <div class="mt-4 ms-3">
+          <h4 class="text-white fs-3">Frank Solo</h4>
+          <h3 class="fs-5 fst-italic pb-1">
+            <i class="fa-solid fa-calendar-days"></i>
+            07 June 2023 | <i class="fa-regular fa-clock "></i> 20:00 - 20:45
+          </h3>
+          <h5 class="text-white-50"> ---------------------------------------------------------------</h5>
+          <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit <br> tellus, luctus
+            nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        </div>
+        <div class="mt-4 ms-4 pt-2">
+          <button class="button fs-4 mt-5">Buy Ticket <i class="fa-solid fa-arrow-right ms-1"></i></button>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <!-- sec-four end -->
+
+  <!-- gallery start -->
+  <section class="bg-dark">
+    <div class="container">
+      <div class="text-center">
+        <h3 class="font-monospace fw-bold fs-1 pt-5">OUR GALLERY</h3>
+        <p class="fs-2 mt-1" style="color: #c59b68;">----<i class="fa-solid fa-microphone ms-3  me-3"></i>----</p>
+        <h4 class="fs-5 text-white-50 fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+          luctus nec ullamcorper mattis, pulvinar dapibus leo.</h4>
+      </div>
+      <div class="d-flex justify-content-around ms-5 mt-5 me-5">
+        <img src="./img/image1.jpg" alt="" class="w-25 h-25">
+        <img src="./img/image8.jpg" alt="" class="w-25 h-25">
+        <img src="./img/image7.jpg" alt="" class="w-25 h-25">
+      </div>
+      <div class="d-flex justify-content-around ms-5 mt-5 me-5">
+        <img src="./img/image3.jpg" alt="" class="w-25 h-25">
+        <img src="./img/bar.jpg" alt="" class="w-25 h-25">
+        <img src="./img/image9.jpg" alt="" class="w-25 h-25">
+      </div>
+      <div class="d-flex justify-content-around ms-5 mt-5 me-5 pb-5">
+        <img src="./img/image10.jpg" alt="" class="w-25 h-25">
+        <img src="./img/image11.jpg" alt="" class="w-25 h-25">
+        <img src="./img/image12.jpg" alt="" class="w-25 h-25">
+      </div>
+    </div>
+  </section>
+  <!-- gallery end -->
+
+  <!-- badge -->
+  <section class="bad">
+    <div class="text-center pt-5">
+      <img src="./img/badge1.png" alt="">
+      <img src="./img/badge2.png" alt="">
+      <img src="./img/badge3.png" alt="">
+      <img src="./img/badge1.png" alt="">
+    </div>
+  </section>
+  <!-- badge -->
+
+
+  <!-- News start -->
+  <section class="bg-dark">
+    <div class="container">
+      <div class="text-center">
+        <h3 class="font-monospace fw-bold fs-1 pt-5">OUR NEWS</h3>
+        <p class="fs-2 mt-1" style="color: #c59b68;">----<i class="fa-solid fa-microphone ms-3  me-3"></i>----</p>
+        <h4 class="fs-5 text-white-50 fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+          luctus nec ullamcorper mattis, pulvinar dapibus leo.</h4>
+      </div>
+      <div class="d-flex justify-content-center pb-5">
+        <div class="card mt-5 bg-secondary" style="width: 20rem;">
+          <img src="./img/image8.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title fs-4">Vitae turpis massa sed <br> elementum tempus</h3>
+            <p class="card-text text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore.
+            </p>
+            <a href="#" class="btn fst-italic">Read More<i class="fa-solid fa-angles-right ms-2"></i></a>
+          </div>
+        </div>
+        <div class="card ms-5 mt-5 bg-secondary" style="width: 20rem;">
+          <img src="./img/image12.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title fs-4">Lacus sed turpis tincidunt <br> id aliquet risus feugiat</h3>
+            <p class="card-text text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore.</p>
+            <a href="#" class="btn fst-italic">Read More<i class="fa-solid fa-angles-right ms-2"></i></a>
+          </div>
+        </div>
+        <div class="card ms-5 mt-5 bg-secondary" style="width: 20rem;">
+          <img src="./img/image9.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title fs-4">Consectetur adipiscing <br> elit sed do eiusmod</h3>
+            <p class="card-text text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore.</p>
+            <a href="#" class="btn fst-italic">Read More<i class="fa-solid fa-angles-right ms-2"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- News end -->
+
+  <!-- Footer start -->
+  <footer>
+    <div class="container d-flex pb-5 ps-5">
+      <div class="">
+        <img src="./img/logo.png" alt="" class="ps-5">
+        <p class="text-secondary fs-6 mt-1 ps-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit <br>
+          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        <div class="d-flex mt-2 gap-4 ps-5">
+          <i class="fa-brands fa-facebook fs-3"></i>
+          <i class="fa-brands fa-twitter fs-3"></i>
+          <i class="fa-brands fa-youtube fs-3"></i>
+        </div>
+      </div>
+      <div class="mt-5 ms-5">
+        <h3 class="font-monospace">
+          Location & Details
+        </h3>
+        <div class="d-flex">
+          <i class="fa-solid fa-location-dot fs-5 pt-1"></i>
+          <p class="fs-6 text-white-50 ms-2">99 S.t Jomblo Park Pekanbaru 28292. Indonesia</p>
+        </div>
+        <div class="d-flex">
+          <i class="fa-solid fa-phone fs-5 pt-1"></i>
+          <p class="text-white-50 fs-6 ms-2">62+ 850 500 60000</p>
+        </div>
+        <div class="d-flex">
+          <i class="fa-regular fa-envelope fs-5 pt-1"></i>
+          <p class="text-white-50 fs-6 ms-2">yoursite@email.com</p>
+        </div>
+        <div class="d-flex">
+          <i class="fa-solid fa-earth-americas fs-5 pt-1"></i>
+          <p class="text-white-50 fs-6 ms-2">www.yoursite.com</p>
+        </div>
+      </div>
+      <div class="mt-5 ms-5">
+        <h3 class="font-monospace">
+          Quick link
+        </h3>
+        <div class="d-flex">
+          <i class="fa-solid fa-arrow-right fs-5 pt-1"></i>
+          <p class="text-secondary fs-6 ms-2">Home page</p>
+        </div>
+        <div class="d-flex">
+          <i class="fa-solid fa-arrow-right fs-5 pt-1"></i>
+          <p class="text-secondary fs-6 ms-2">About club</p>
+        </div>
+        <div class="d-flex">
+          <i class="fa-solid fa-arrow-right fs-5 pt-1"></i>
+          <p class="text-secondary fs-6 ms-2">Schedule</p>
+        </div>
+        <div class="d-flex">
+          <i class="fa-solid fa-arrow-right fs-5 pt-1"></i>
+          <p class="text-secondary fs-6 ms-2">Contact us</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+
+
+  <!-- script -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
