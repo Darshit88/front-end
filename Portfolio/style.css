@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-one{
+    background-image: url(./img/bg-sec1.webp);
+    height: 350px;
+    width: 100%;
+    background-color: #464444bd;
+    background-blend-mode: hue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

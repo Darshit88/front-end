@@ -1,0 +1,35 @@
+
+.wrap { 
+  margin: auto;
+  padding-top: 20px;
+  max-width: 75rem;
+  width: 100%;
+}
+ .counter__heading{
+  color: #3f3f3f; 
+  font-family: cursive;
+  font-weight: 600;
+ }
+.counter {
+  width: 15rem;
+  text-align: center;
+  display: inline-block;
+  margin: 1.5rem;
+  border-radius: 1.5rem;
+  
+  &__heading {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  &__icon {
+    font-size: 6.5rem;
+  }
+  
+  &__num {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+  }
+}
